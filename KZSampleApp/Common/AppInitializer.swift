@@ -10,6 +10,7 @@ import UIKit
 
 class AppInitializer {
     var window: UIWindow?
+    var rootNavigation: RootNavigating?
     
     // minimal init
     func testInit() {
@@ -19,8 +20,9 @@ class AppInitializer {
     
     func normalInit() {
         // frameworks go here
-        let defaultVC = UIViewController()
-        configureWindow(withVC: defaultVC)
+        rootNavigation = RootNavigation()
+        guard let navigation = rootNavigation else { return }
+        configureWindow(withVC: navigation.createRootViewController())
     }
     
     fileprivate func configureWindow(withVC rootVC: UIViewController) {
