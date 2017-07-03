@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		31B9C1CA1F0AB82A00012093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9C1C91F0AB82A00012093 /* AppDelegate.swift */; };
-		31B9C1CC1F0AB82A00012093 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9C1CB1F0AB82A00012093 /* ViewController.swift */; };
-		31B9C1CF1F0AB82A00012093 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B9C1CD1F0AB82A00012093 /* Main.storyboard */; };
 		31B9C1D11F0AB82A00012093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B9C1D01F0AB82A00012093 /* Assets.xcassets */; };
 		31B9C1D41F0AB82A00012093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B9C1D21F0AB82A00012093 /* LaunchScreen.storyboard */; };
 		31B9C1DF1F0AB82B00012093 /* KZSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9C1DE1F0AB82B00012093 /* KZSampleAppTests.swift */; };
+		31F8C7281F0AD9F000027539 /* AppInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F8C7271F0AD9F000027539 /* AppInitializer.swift */; };
+		31F8C72A1F0ADAD700027539 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F8C7291F0ADAD700027539 /* Environment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +28,14 @@
 /* Begin PBXFileReference section */
 		31B9C1C61F0AB82A00012093 /* KZSampleApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KZSampleApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B9C1C91F0AB82A00012093 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31B9C1CB1F0AB82A00012093 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		31B9C1CE1F0AB82A00012093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		31B9C1D01F0AB82A00012093 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31B9C1D31F0AB82A00012093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31B9C1D51F0AB82A00012093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31B9C1DA1F0AB82A00012093 /* KZSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		31B9C1DE1F0AB82B00012093 /* KZSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZSampleAppTests.swift; sourceTree = "<group>"; };
 		31B9C1E01F0AB82B00012093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F8C7271F0AD9F000027539 /* AppInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInitializer.swift; sourceTree = "<group>"; };
+		31F8C7291F0ADAD700027539 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,12 +77,9 @@
 		31B9C1C81F0AB82A00012093 /* KZSampleApp */ = {
 			isa = PBXGroup;
 			children = (
-				31B9C1C91F0AB82A00012093 /* AppDelegate.swift */,
-				31B9C1CB1F0AB82A00012093 /* ViewController.swift */,
-				31B9C1CD1F0AB82A00012093 /* Main.storyboard */,
-				31B9C1D01F0AB82A00012093 /* Assets.xcassets */,
-				31B9C1D21F0AB82A00012093 /* LaunchScreen.storyboard */,
 				31B9C1D51F0AB82A00012093 /* Info.plist */,
+				31B9C1E91F0ABB2F00012093 /* Common */,
+				31B9C1EA1F0ABB3C00012093 /* Modules */,
 			);
 			path = KZSampleApp;
 			sourceTree = "<group>";
@@ -94,6 +91,33 @@
 				31B9C1E01F0AB82B00012093 /* Info.plist */,
 			);
 			path = KZSampleAppTests;
+			sourceTree = "<group>";
+		};
+		31B9C1E91F0ABB2F00012093 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				31B9C1C91F0AB82A00012093 /* AppDelegate.swift */,
+				31F8C7271F0AD9F000027539 /* AppInitializer.swift */,
+				31B9C1D01F0AB82A00012093 /* Assets.xcassets */,
+				31B9C1D21F0AB82A00012093 /* LaunchScreen.storyboard */,
+				31F8C7291F0ADAD700027539 /* Environment.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		31B9C1EA1F0ABB3C00012093 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				31B9C1EB1F0ABB5F00012093 /* MainScreen */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		31B9C1EB1F0ABB5F00012093 /* MainScreen */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = MainScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -179,7 +203,6 @@
 			files = (
 				31B9C1D41F0AB82A00012093 /* LaunchScreen.storyboard in Resources */,
 				31B9C1D11F0AB82A00012093 /* Assets.xcassets in Resources */,
-				31B9C1CF1F0AB82A00012093 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,7 +220,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B9C1CC1F0AB82A00012093 /* ViewController.swift in Sources */,
+				31F8C7281F0AD9F000027539 /* AppInitializer.swift in Sources */,
+				31F8C72A1F0ADAD700027539 /* Environment.swift in Sources */,
 				31B9C1CA1F0AB82A00012093 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,14 +245,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		31B9C1CD1F0AB82A00012093 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31B9C1CE1F0AB82A00012093 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		31B9C1D21F0AB82A00012093 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,7 +302,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -335,7 +351,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -422,6 +438,7 @@
 				31B9C1E51F0AB82B00012093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		31B9C1E61F0AB82B00012093 /* Build configuration list for PBXNativeTarget "KZSampleAppTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +447,7 @@
 				31B9C1E81F0AB82B00012093 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
