@@ -16,24 +16,26 @@ final class DemoFlowNavigation {
     }
     
     func startFlow() {
-        let selectionFactory = SelectionScreenFactory()
-        selectionFactory.onSelection = { [weak self] (result) in
+        let factory = SelectionScreenFactory()
+        factory.onSelection = { [weak self] (result) in
             self?.goToTable(with: result)
         }
-        let selectionScreen = selectionFactory.createWithoutContext()
-        self.navigationController.setViewControllers([selectionScreen], animated: false)
+        let selectionScreen = factory.createWithoutContext()
+        navigationController.setViewControllers([selectionScreen], animated: false)
     }
     
     func goToTable(with result:SelectionResult) -> () {
         NSLog("Instantinate another view controller!")
-        push(createRedScreen())
+        let factory = SelectionDetailsScreenFactory()
+        let selectionDetailsVC = factory.create(for: result)
+        push(selectionDetailsVC)
     }
     
     fileprivate func push(_ viewController: UIViewController) {
-        self.navigationController.pushViewController(viewController, animated: true)
+        navigationController.pushViewController(viewController, animated: true)
     }
     
-    private func createRedScreen() -> (UIViewController) {
+    fileprivate func createRedScreen() -> (UIViewController) {
         let emptyScreen = UIViewController()
         emptyScreen.view = UIView()
         emptyScreen.view.backgroundColor = UIColor.red

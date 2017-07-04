@@ -32,11 +32,17 @@ extension WhyNoTestsInfoTests {
 
 // MARK: - Tests
 extension WhyNoTestsInfoTests {
+    
+    func testDoesKnowThatUnitTestsExist() {
+        XCTAssert(true)
+    }
+    
     func testAnyClassInTheProject() {
-        XCTFail("*THIS* time I have to resign from writting tests.")
+        XCTFail("due to lack of time *THIS* time I have to resign from writting tests.")
     }
     
     func testSnapshotTests() {
+        // I recommend below:
         // https://github.com/facebook/ios-snapshot-test-case
         XCTFail("Insert some snapshot tests!")
     }

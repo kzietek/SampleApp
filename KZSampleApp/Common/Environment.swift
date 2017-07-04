@@ -27,4 +27,11 @@ enum Environment {
         }
         return false
     }
+    
+    static var apiBaseUrl: String {
+        switch(Environment.current) {
+            case .debug: return "http://dev.testcompany.com"
+            case .production: return "http://testcompany.com"
+        }
+    }
 }

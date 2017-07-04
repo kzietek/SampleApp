@@ -19,15 +19,23 @@ class AppInitializer {
     }
     
     func normalInit() {
-        // frameworks go here
-        rootNavigation = RootNavigation()
-        guard let navigation = rootNavigation else { return }
-        configureWindow(withVC: navigation.createRootViewController())
+        configureFrameworks()
+        configureNavigation()
     }
     
     fileprivate func configureWindow(withVC rootVC: UIViewController) {
         window = UIWindow(frame: UIScreen.main.bounds)
         window?.rootViewController = rootVC
         window?.makeKeyAndVisible()
+    }
+    
+    fileprivate func configureFrameworks() {
+        // frameworks go here
+    }
+    
+    fileprivate func configureNavigation() {
+        rootNavigation = RootNavigation()
+        guard let navigation = rootNavigation else { return }
+        configureWindow(withVC: navigation.createRootViewController())
     }
 }

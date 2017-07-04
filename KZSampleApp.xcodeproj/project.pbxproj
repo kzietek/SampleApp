@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		313B226E1F0B1663004F1A48 /* SelectionDetailsScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B226D1F0B1663004F1A48 /* SelectionDetailsScreenFactory.swift */; };
+		313B22701F0B1735004F1A48 /* SelectionDetailsScreenInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B226F1F0B1735004F1A48 /* SelectionDetailsScreenInteractor.swift */; };
+		313B22731F0B17CC004F1A48 /* SelectionDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313B22711F0B17CC004F1A48 /* SelectionDetailsViewController.swift */; };
+		313B22741F0B17CC004F1A48 /* SelectionDetailsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 313B22721F0B17CC004F1A48 /* SelectionDetailsViewController.xib */; };
 		314C48311F0B05F30030AF4D /* WhyNoTestsInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314C48301F0B05F30030AF4D /* WhyNoTestsInfoTests.swift */; };
 		3158AAD11F0B0F1D0037F771 /* SelectionResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AAD01F0B0DEA0037F771 /* SelectionResult.swift */; };
 		3158AAD21F0B0F200037F771 /* SelectionScreenFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3158AACF1F0B0DCB0037F771 /* SelectionScreenFactory.swift */; };
@@ -18,7 +22,6 @@
 		31B9C1CA1F0AB82A00012093 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9C1C91F0AB82A00012093 /* AppDelegate.swift */; };
 		31B9C1D11F0AB82A00012093 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31B9C1D01F0AB82A00012093 /* Assets.xcassets */; };
 		31B9C1D41F0AB82A00012093 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31B9C1D21F0AB82A00012093 /* LaunchScreen.storyboard */; };
-		31B9C1DF1F0AB82B00012093 /* KZSampleAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B9C1DE1F0AB82B00012093 /* KZSampleAppTests.swift */; };
 		31F8C7281F0AD9F000027539 /* AppInitializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F8C7271F0AD9F000027539 /* AppInitializer.swift */; };
 		31F8C72A1F0ADAD700027539 /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F8C7291F0ADAD700027539 /* Environment.swift */; };
 		31F8C72D1F0AE29800027539 /* RootNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F8C72C1F0AE29800027539 /* RootNavigation.swift */; };
@@ -36,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		313B226D1F0B1663004F1A48 /* SelectionDetailsScreenFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionDetailsScreenFactory.swift; sourceTree = "<group>"; };
+		313B226F1F0B1735004F1A48 /* SelectionDetailsScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionDetailsScreenInteractor.swift; sourceTree = "<group>"; };
+		313B22711F0B17CC004F1A48 /* SelectionDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionDetailsViewController.swift; sourceTree = "<group>"; };
+		313B22721F0B17CC004F1A48 /* SelectionDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionDetailsViewController.xib; sourceTree = "<group>"; };
 		314C48301F0B05F30030AF4D /* WhyNoTestsInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyNoTestsInfoTests.swift; sourceTree = "<group>"; };
 		3158AACB1F0B0D630037F771 /* SelectionScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionScreenInteractor.swift; sourceTree = "<group>"; };
 		3158AACD1F0B0D630037F771 /* SelectionScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionScreenViewController.swift; sourceTree = "<group>"; };
@@ -50,7 +57,6 @@
 		31B9C1D31F0AB82A00012093 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31B9C1D51F0AB82A00012093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31B9C1DA1F0AB82A00012093 /* KZSampleAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KZSampleAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		31B9C1DE1F0AB82B00012093 /* KZSampleAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KZSampleAppTests.swift; sourceTree = "<group>"; };
 		31B9C1E01F0AB82B00012093 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		31F8C7271F0AD9F000027539 /* AppInitializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInitializer.swift; sourceTree = "<group>"; };
 		31F8C7291F0ADAD700027539 /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
@@ -127,6 +133,41 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		3158AAD81F0B10850037F771 /* SelectionDetailsScreen */ = {
+			isa = PBXGroup;
+			children = (
+				3158AAD91F0B10EF0037F771 /* Factories */,
+				3158AADA1F0B11490037F771 /* Interactor */,
+				3158AADB1F0B11570037F771 /* View */,
+			);
+			path = SelectionDetailsScreen;
+			sourceTree = "<group>";
+		};
+		3158AAD91F0B10EF0037F771 /* Factories */ = {
+			isa = PBXGroup;
+			children = (
+				313B226D1F0B1663004F1A48 /* SelectionDetailsScreenFactory.swift */,
+			);
+			path = Factories;
+			sourceTree = "<group>";
+		};
+		3158AADA1F0B11490037F771 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				313B226F1F0B1735004F1A48 /* SelectionDetailsScreenInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		3158AADB1F0B11570037F771 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				313B22711F0B17CC004F1A48 /* SelectionDetailsViewController.swift */,
+				313B22721F0B17CC004F1A48 /* SelectionDetailsViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		31825D6F1F0AEFEA008EA853 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
@@ -174,7 +215,6 @@
 		31B9C1DD1F0AB82B00012093 /* KZSampleAppTests */ = {
 			isa = PBXGroup;
 			children = (
-				31B9C1DE1F0AB82B00012093 /* KZSampleAppTests.swift */,
 				314C48301F0B05F30030AF4D /* WhyNoTestsInfoTests.swift */,
 				31B9C1E01F0AB82B00012093 /* Info.plist */,
 			);
@@ -209,6 +249,7 @@
 			children = (
 				3158AAD61F0B0F4C0037F771 /* Common */,
 				3158AAC71F0B0D630037F771 /* SelectionScreen */,
+				3158AAD81F0B10850037F771 /* SelectionDetailsScreen */,
 			);
 			path = DemoFlow;
 			sourceTree = "<group>";
@@ -305,6 +346,7 @@
 			files = (
 				31B9C1D41F0AB82A00012093 /* LaunchScreen.storyboard in Resources */,
 				3158AAD51F0B0F2C0037F771 /* SelectionScreenViewController.xib in Resources */,
+				313B22741F0B17CC004F1A48 /* SelectionDetailsViewController.xib in Resources */,
 				31B9C1D11F0AB82A00012093 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -325,10 +367,13 @@
 			files = (
 				31825D721F0AF009008EA853 /* HavingNib.swift in Sources */,
 				3158AAD41F0B0F250037F771 /* SelectionScreenViewController.swift in Sources */,
+				313B22731F0B17CC004F1A48 /* SelectionDetailsViewController.swift in Sources */,
 				31F8C72D1F0AE29800027539 /* RootNavigation.swift in Sources */,
 				31F8C7281F0AD9F000027539 /* AppInitializer.swift in Sources */,
 				3158AAD31F0B0F230037F771 /* SelectionScreenInteractor.swift in Sources */,
 				31F8C72A1F0ADAD700027539 /* Environment.swift in Sources */,
+				313B22701F0B1735004F1A48 /* SelectionDetailsScreenInteractor.swift in Sources */,
+				313B226E1F0B1663004F1A48 /* SelectionDetailsScreenFactory.swift in Sources */,
 				3158AAD21F0B0F200037F771 /* SelectionScreenFactory.swift in Sources */,
 				31B9C1CA1F0AB82A00012093 /* AppDelegate.swift in Sources */,
 				3158AAD11F0B0F1D0037F771 /* SelectionResult.swift in Sources */,
@@ -341,7 +386,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				31B9C1DF1F0AB82B00012093 /* KZSampleAppTests.swift in Sources */,
 				314C48311F0B05F30030AF4D /* WhyNoTestsInfoTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
