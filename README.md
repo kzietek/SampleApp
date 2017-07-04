@@ -8,7 +8,7 @@ Currently i've spent only a few hours on this skeleton app and I don't consider 
 
 ## Requirements
 
-The project was created using XCode 9 Beta and may *not run on earlier versions*.
+The project was created using *XCode 9 Beta* and *may not run on earlier versions*.
 
 ## TODO:
 - Write example unit tests and make the code more testable
