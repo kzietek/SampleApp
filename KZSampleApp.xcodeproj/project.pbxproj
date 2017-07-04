@@ -43,6 +43,7 @@
 		313B226F1F0B1735004F1A48 /* SelectionDetailsScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionDetailsScreenInteractor.swift; sourceTree = "<group>"; };
 		313B22711F0B17CC004F1A48 /* SelectionDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionDetailsViewController.swift; sourceTree = "<group>"; };
 		313B22721F0B17CC004F1A48 /* SelectionDetailsViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SelectionDetailsViewController.xib; sourceTree = "<group>"; };
+		313B22751F0B205E004F1A48 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		314C48301F0B05F30030AF4D /* WhyNoTestsInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WhyNoTestsInfoTests.swift; sourceTree = "<group>"; };
 		3158AACB1F0B0D630037F771 /* SelectionScreenInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionScreenInteractor.swift; sourceTree = "<group>"; };
 		3158AACD1F0B0D630037F771 /* SelectionScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionScreenViewController.swift; sourceTree = "<group>"; };
@@ -205,6 +206,7 @@
 		31B9C1C81F0AB82A00012093 /* KZSampleApp */ = {
 			isa = PBXGroup;
 			children = (
+				313B22751F0B205E004F1A48 /* README.md */,
 				31B9C1D51F0AB82A00012093 /* Info.plist */,
 				31B9C1E91F0ABB2F00012093 /* Common */,
 				31B9C1EA1F0ABB3C00012093 /* Modules */,
